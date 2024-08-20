@@ -1,2 +1,2 @@
 # swapi
-Dummy project
+Star Wars project
