@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "legacyDecorators": true
+    }
+  },
+  "extends": ["airbnb"],
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "comma-dangle": "off",
+    "react/function-component-definition": "off",
+    "arrow-body-style": "off"
+  }
+}
+
